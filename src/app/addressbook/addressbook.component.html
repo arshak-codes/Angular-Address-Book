@@ -1,0 +1,9 @@
+<!-- addressbook.component.html -->
+<div>
+  <h2 style="font-family: 'Brush Script MT', cursive; color: rgb(55, 136, 248);">Address Book 📚</h2>
+  <ul>
+    <li *ngFor="let contact of contacts" style="margin-bottom: 10px; color: aliceblue;">
+      {{ contact.name }} - {{contact.phoneNumber}} - {{ contact.address }}
+    </li>
+  </ul>
+</div>
